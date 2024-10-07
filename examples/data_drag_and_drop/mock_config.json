@@ -1,0 +1,36 @@
+{
+  "app_name": "QuantumSim Pro",
+  "version": "2.3.1",
+  "environment": "production",
+  "database": {
+    "host": "db.example.com",
+    "port": 5432,
+    "name": "quantum_sim_db",
+    "max_connections": 100
+  },
+  "logging": {
+    "level": "info",
+    "file": "/var/log/quantumsim.log",
+    "rotate": {
+      "max_size": "100MB",
+      "backup_count": 5
+    }
+  },
+  "simulation": {
+    "max_qubits": 32,
+    "default_gate_time": 20e-9,
+    "error_models": ["depolarizing", "amplitude_damping"]
+  },
+  "api": {
+    "host": "0.0.0.0",
+    "port": 8080,
+    "rate_limit": {
+      "requests_per_minute": 60,
+      "burst": 10
+    }
+  },
+  "notification": {
+    "email": "admin@example.com",
+    "slack_webhook": "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX"
+  }
+}

@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: file_sync_example
+Version: 0.1.0
+Summary: A minimal example library for file synchronization
+Requires-Python: >=3.8
+Requires-Dist: etiket_client

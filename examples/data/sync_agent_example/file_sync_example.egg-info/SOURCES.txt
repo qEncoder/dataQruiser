@@ -1,0 +1,9 @@
+pyproject.toml
+file_sync_example/__init__.py
+file_sync_example/config.py
+file_sync_example/sync.py
+file_sync_example.egg-info/PKG-INFO
+file_sync_example.egg-info/SOURCES.txt
+file_sync_example.egg-info/dependency_links.txt
+file_sync_example.egg-info/requires.txt
+file_sync_example.egg-info/top_level.txt
