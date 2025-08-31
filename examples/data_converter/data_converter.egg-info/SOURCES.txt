@@ -1,0 +1,9 @@
+pyproject.toml
+data_converter/__init__.py
+data_converter/converter_txt_to_hdf5.py
+data_converter/example_usage.py
+data_converter.egg-info/PKG-INFO
+data_converter.egg-info/SOURCES.txt
+data_converter.egg-info/dependency_links.txt
+data_converter.egg-info/requires.txt
+data_converter.egg-info/top_level.txt

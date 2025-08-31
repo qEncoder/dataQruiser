@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: data_converter
+Version: 0.1.0
+Summary: Custom file converter for QHarbor quantum measurement data
+Author-email: QHarbor Team <support@qharbor.nl>
+Requires-Python: >=3.8
+Requires-Dist: pandas>=1.3.0
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: xarray>=0.19.0
+Requires-Dist: netcdf4>=1.5.0
+Requires-Dist: h5netcdf>=0.11.0
