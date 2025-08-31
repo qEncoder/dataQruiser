@@ -1,0 +1,17 @@
+dataset_sync_path: data/folder_base_data/sample_C/20250831_142333
+dataset_uuid: bf571879-9ac9-4673-94ac-5a9f9cd10d74
+errors: []
+files:
+  measurement.txt:
+    m_time: '2025-08-31T14:23:33.376311'
+    status: OK
+    txt_to_hdf5_converter:
+      m_time: '2025-08-31T14:23:33.376311'
+      output: /var/folders/ng/2zdj323d1fs3r8sbfscgfmchnwbxp4/T/tmprj0s5ggm/measurement.hdf5
+      status: OK
+  metadata.json:
+    m_time: '2025-08-31T14:23:33.376782'
+    status: OK
+scope_uuid: 203ccd44-8d6f-4640-b188-9e4dd252c721
+sync_time: '2025-08-31T14:26:23.006598'
+version: 0.1

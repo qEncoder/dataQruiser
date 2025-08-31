@@ -1,0 +1,17 @@
+version: '0.1'
+dataset_name: T1_decay_measurement
+creation: '2025-08-31T14:14:33'
+description: T1 decay measurement for qubit relaxation time characterization.
+attributes:
+  sample: sample_A
+  qubit_id: Q1
+  measurement_type: T1_decay
+keywords:
+- T1
+- decay
+- relaxation
+- characterization
+converters:
+  txt_to_hdf5_converter:
+    module: data_converter.converter_txt_to_hdf5
+    class: TxtToHdf5Converter

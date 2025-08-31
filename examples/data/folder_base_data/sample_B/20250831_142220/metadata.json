@@ -1,0 +1,9 @@
+{
+  "measurement_type": "T1_decay",
+  "qubit_id": "Q1",
+  "temperature": 0.015,
+  "power": -20,
+  "frequency": 5200000000.0,
+  "fitted_T1": 25.3,
+  "measurement_date": "2025-08-31T14:22:20.392780"
+}
