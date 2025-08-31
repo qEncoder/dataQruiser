@@ -19,6 +19,7 @@ def main() -> None:
             np.column_stack([t1_times, t1_signal]),
             header="Time(us)\tSignal",
             delimiter="\t",
+            comments="",
         )
 
         converter = TxtToHdf5Converter(input_txt)

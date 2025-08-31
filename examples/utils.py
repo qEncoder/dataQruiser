@@ -47,28 +47,6 @@ class SineWithNoiseExponential(Parameter):
 
 
 
-
-# class IQArray(MultiParameter):
-#     def __init__(self, n_pts):
-#         # names, labels, and units are the same
-#         self.n_pts = n_pts
-#         setpoints_values = tuple(np.linspace(0, n_pts-1, n_pts))
-#         self.rng = np.random.default_rng(seed=42)
-#         super().__init__('iq_array', names=('I', 'Q'), shapes=((n_pts,), (n_pts,)),
-#                          labels=('In phase amplitude', 'Quadrature amplitude'),
-#                          units=('V', 'V'),
-#                          # note that EACH item needs a sequence of setpoint arrays
-#                          # so a 1D item has its setpoints wrapped in a length-1 tuple
-#                          setpoints=((setpoints_values, ), (setpoints_values,), ),
-#                          setpoint_names=((("repetition"),), (("repetition"),)),
-#                          setpoint_labels=((("repetition"),), (("repetition"),)),
-#                          setpoint_units=((("#"),), (("#"),)),
-#                          docstring='param that returns two single values, I and Q')
-
-#     def get_raw(self):
-#         return (self.rng.random([self.n_pts]), self.rng.random([self.n_pts]))
-
-
 try:
     dac = DummyInstrument('dac', gates=['ch1', 'ch2'])
 except: pass
