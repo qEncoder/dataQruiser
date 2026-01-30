@@ -1,0 +1,13 @@
+dataset_sync_path: /Users/atosato/code/QHarbor/dataQruiser/examples/data/folder_base_data/sample_C/20260130_182105
+dataset_uuid: e66d398c-83c4-4efd-865c-cfd75ee25194
+errors: []
+files:
+  measurement.txt:
+    m_time: '2026-01-30T18:21:05.514775'
+    status: OK
+  metadata.json:
+    m_time: '2026-01-30T18:21:05.515522'
+    status: OK
+scope_uuid: c60d45ed-5e63-4977-b30c-6ab784d476fb
+sync_time: '2026-01-30T18:32:06.059201'
+version: 0.1

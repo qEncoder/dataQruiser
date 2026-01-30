@@ -1,0 +1,17 @@
+dataset_sync_path: /Users/atosato/code/QHarbor/dataQruiser/examples/data/folder_base_data/sample_C/20260130_183152
+dataset_uuid: 092570a0-cf29-45ce-88c7-a4dc1f23522e
+errors: []
+files:
+  measurement.txt:
+    m_time: '2026-01-30T18:31:52.322821'
+    status: OK
+    txt_to_hdf5_converter:
+      m_time: '2026-01-30T18:31:52.322821'
+      output: /var/folders/ng/2zdj323d1fs3r8sbfscgfmchnwbxp4/T/tmpm8b1huqb/measurement.hdf5
+      status: OK
+  metadata.json:
+    m_time: '2026-01-30T18:31:52.324422'
+    status: OK
+scope_uuid: c60d45ed-5e63-4977-b30c-6ab784d476fb
+sync_time: '2026-01-30T18:32:04.596155'
+version: 0.1

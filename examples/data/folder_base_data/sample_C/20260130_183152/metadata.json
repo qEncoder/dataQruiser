@@ -1,0 +1,8 @@
+{
+  "measurement_type": "T1_decay",
+  "qubit_id": "Q1",
+  "temperature(K)": 0.015,
+  "power(dBm)": -20,
+  "frequency(Hz)": 5200000000.0,
+  "fitted_T1(us)": 25.3
+}
